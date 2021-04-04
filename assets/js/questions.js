@@ -25,105 +25,105 @@ var quiz = [
       question: "What group of tags are used to define the text headers in the body of the HTML document?",
       choices: ["<button>", "<footer>", "<td>", "<h1>...<h6>"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "<h1>...<h6>"
     },
     {
       question: "What is the CSS property that sets the size of the whitespace outside the borders of the content?",
       choices: ["Margin", "Line", "Spacer", "Block-level"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Margin"
     },
     {
       question: "Every HTML page must include a reference to the external file sheet file inside the ____ element.",
       choices: ["<div>", "Footer", "Body", "Link"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Link"
     },
     {
       question: "CSS can be used to arrange or organize images into a ____.",
       choices: ["Gallery", "Shadow Box", "Table", "Boxes"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Gallery"
     },
     {
       question: "What is the name of the property that is used to define the special state of an element?",
       choices: ["Pseudo-class", "Alignment", "Syntax", "Style"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Pseudo-class"
     },
     {
       question: "What is the CSS property that is used to specify the edges of a table?",
       choices: ["Fill", "Boxes", "Margins", "Borders"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Borders"
     },
     {
       question: "What is the name of the stylesheet that defines the presentation of an HTML or XML document?",
       choices: ["CSS", "jQuery", "PHP", "Java"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "CSS"
     },
     {
       question: "What are the CSS properties that are used to add space around sections of content?",
       choices: ["Padding", "Break", "Spacing", "Cleaner"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Padding"
     },
     {
       question: "What is the name of CSS design that calls for fluid and adaptable elements based on the device resolution or size?",
       choices: ["Responsive", "Cascading", "Shifting", "Evolution"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Responsive"
     },
     {
       question: "What is the element used – and hidden – in code that explains things and makes the content more readable?",
       choices: ["Comments", "Quotations", "Comparisons", "Notes"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Comments"
     },
     {
       question: "What is a JavaScript element that represents either TRUE or FALSE values?",
       choices: ["RegExp", "Boolean", "Event", "Condition"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Boolean"
     },
     {
       question: "In JavaScript, what element is used to store and manipulate text usually in multiples?",
       choices: ["Arrays", "Function", "Variables", "Strings"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Strings"
     },
     {
       question: "In JavaScript, what is a block of code called that is used to perform a specific task?",
       choices: ["Function", "String", "Variable", "Declaration"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Function"
     },
     {
       question: "What elements are used to test for TRUE or False values stored in variables?",
       choices: ["Conditional statements", "Trigger readers", "RegExp or Regular Expressions", "Comparison and logical operators"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "Comparison and logical operators"
     },
     {
       question: "What is the type of loop that continues through a block of code as long as the specified condition remains TRUE?",
       choices: ["Conditional Loop", "For Loop", "Else Loop", "While Loop"],
       showQuestion: true,
-      answered: true,
+      answered: false,
       answer: "While Loop"
     }
   ]; 

@@ -131,7 +131,7 @@ function getAllQuestions() {
     
     // Goes thru all the questions, to find all the questions the user still has not done
     for(var i = 0; i < numberOfQuestions; i++) {
-        if(quiz[i].answered == false) {
+        if(quiz[i].showQuestion == true) {
             allQuestionsNotAnswered += 1;
         }
     }
@@ -269,7 +269,7 @@ function endQuiz() {
     }
     else {
 
-        // If the user does not a score higher than 0, then just displays the scores
+        // If the user does not a score higher than 0
 
         // Hides the countdown timer
         countdownTimer.classList.add("hide");
@@ -277,8 +277,8 @@ function endQuiz() {
         // Hides the quiz section element
         quizEl.classList.add("hide");
 
-        // Calls the display scores function
-        displayScores();
+        // Calls the return to main function
+        returnToMain();
     }
     
 }
