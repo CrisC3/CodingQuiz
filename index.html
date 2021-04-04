@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Coding Quiz on HTML, CSS, and JS</title>
+</head>
+<body>
+    
+    <!--#region countdown timer, on initial load it is hidden  -->
+        <div id="countdown" class="countdown-pos hide">
+            Time: <span id="countdown-left">0</span>
+        </div>
+     <!--#endregion -->
+
+    <div class="container">
+        
+        <!--#region main page section when on load  -->
+            <div id="main-start-section">
+                <h1>Coding Quiz on HTML, CSS, and JS</h1>
+                <p class="global-font">The quiz is multiple choice, which covers the basic topics of
+                    HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="main-section-buttons">
+                    <button id="start-btn">Start</button>
+                    <button id="scores-btn">View Highscores</button>
+                </div>            
+            </div>
+        <!--#endregion -->
+
+        <!--#region Quiz section after clicking on Start button  -->
+            <div id="quiz" class="hide">
+                <h2 id="quiz-question"></h2>
+                <div id="question-choices"></div>
+            </div>
+        <!--#endregion -->
+
+         <!--#region Notification section after selecting a choice  -->
+            <div id="notification" class="notification hide"></div>
+         <!--#endregion -->
+
+         <!--#region Display all scores  -->
+         <div id="scores" class="scores hide">
+             <h1>Scores</h1>
+             <ol id="scores-list"></ol>
+             <button id="go-back-btn">Go back</button>
+             <button id="clear-score-btn">Clear scores</button>
+         </div>
+         <!--#endregion -->
+
+         <!--#region Quiz end section after all questions are done  -->
+            <div id="finish" class="hide finish">
+                <h2>Final score: <span id="score"></span></h2>
+                <p class="global-font">Enter your initials to save your score:<br>
+                    <input type="text" id="initial"><br><br>
+                    You can click on <b>Save</b>, to skip.&ensp;
+                    <div class="finish-savebtn">
+                        <button id="save-score">Save</button>
+                    </div>
+                </p>
+            </div>
+         <!--#endregion -->
+
+         
+        
+    </div>
+    
+</body>
+    <!-- Loading JavaScripts files -->
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
+</html>
